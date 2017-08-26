@@ -1,0 +1,55 @@
+﻿table {
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    height: 200px;
+    margin:0;
+    padding:0px;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.Pillow{
+    border: 3px solid #fff;
+}
+
+.activePillow{
+    border: 5px ridge;
+}
+
+chart {
+    display: inline-block;
+    height: 250px;
+}
+
+#gauge {
+    width: 180px;
+}
+
+#stock{
+    width: calc(100% - 190px);
+}
+
+.box {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0px;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    margin: 0 0 0 0!important;
+    padding: 0 0 0 0!important;
+}
+
+.tabsContent {
+    margin: 0 0 0 0!important;
+    padding: 0 0 0 0!important;
+    width: 100%;
+    height: calc(100vh - 257px);
+    overflow-y: scroll;
+}

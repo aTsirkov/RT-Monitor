@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ExpressApp", "ExpressApp\ExpressApp.njsproj", "{A90ADF76-4436-4384-B5D0-74B2B2FAAFD8}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "RT-Monitor_SPA", "RT-Monitor_SPA\RT-Monitor_SPA.njsproj", "{46DF7F33-633C-41B5-A5DA-94D74BC8E300}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A90ADF76-4436-4384-B5D0-74B2B2FAAFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90ADF76-4436-4384-B5D0-74B2B2FAAFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90ADF76-4436-4384-B5D0-74B2B2FAAFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90ADF76-4436-4384-B5D0-74B2B2FAAFD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46DF7F33-633C-41B5-A5DA-94D74BC8E300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DF7F33-633C-41B5-A5DA-94D74BC8E300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DF7F33-633C-41B5-A5DA-94D74BC8E300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DF7F33-633C-41B5-A5DA-94D74BC8E300}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+{
+  "name": "express-app",
+  "version": "0.0.1",
+  "description": "ExpressApp",
+  "main": "app.js",
+  "author": {
+    "name": "Администратор"
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^3.4.4",
+    "jade": "*",
+    "stylus": "*",
+    "tedious": "^1.15.0"
+  },
+  "devDependencies": {}
+}

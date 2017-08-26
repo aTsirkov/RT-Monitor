@@ -1,0 +1,22 @@
+<style type="text/css"> 
+/* Resizes to 0 the upper margin of the main area */ 
+.ms-pagetitleareaframe table { background: none; }
+/* Hides the left navigation area (quick launch bar) */
+#s4-leftpanel-content { display:none !important; } 
+/* Resizes to 0 the left margin */  
+.s4-ca { margin-left:0px !important; margin-right:0px !important; } 
+/* Hides title and breadcrumb bar */  
+.s4-title { display:none !important; } 
+/* Hides the top navigation links */     
+.s4-tn { display:none !important; } 
+/* Hides the top navigation container bar */
+.s4-notdlg { display:none !important; }
+/* Hides the search box */  
+#SRSB { display:none !important; } 
+/* Hides the help button */     
+.s4-help { visibility: hidden; } 
+/* Hides user name in the top right corner and the related menu */     
+.s4-trc-container-menu { visibility: hidden; } 
+/* Hides the ribbon */  
+.ms-cui-ribbonTopBars{ display:none; }  body #s4-ribbonrow { min-height: 0 !important; display:none !important; } 
+</style>

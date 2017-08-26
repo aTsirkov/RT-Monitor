@@ -1,0 +1,39 @@
+﻿<table [ngStyle]="{'background-image': 'url(' + photo + ')'}">
+    <tr>
+        <td style="width:3%"></td>
+        <td style="width:4%; cursor: pointer;" (click)="panelChange(1)"
+            [routerLink]="['/Томск', {outlets: {'route1': ['panel1'] }}]"
+            [ngClass]="active == 1 ? 'activePillow': 'Pillow'" pTooltip="Подшипник № 1">
+        </td>
+        <td style="width:14%"></td>
+        <td style="width:5%; cursor: pointer;" (click)="panelChange(2)"
+            [routerLink]="['/Томск', {outlets: {'route1': ['panel2'] }}]"
+            [ngClass]="active == 2 ? 'activePillow': 'Pillow'" pTooltip="Подшипник № 2">
+        </td>
+        <td style="width:3%"></td>
+        <td style="width:4%; cursor: pointer;" (click)="panelChange(3)"
+            [routerLink]="['/Томск', {outlets: {'route1': ['panel3'] }}]"
+            [ngClass]="active == 3 ? 'activePillow': 'Pillow'" pTooltip="Подшипник № 3">
+        </td>
+        <td style="width:27%"></td>
+        <td style="width:5%; cursor: pointer;" (click)="panelChange(4)"
+            [routerLink]="['/Томск', {outlets: {'route1': ['panel4'] }}]"
+            [ngClass]="active == 4 ? 'activePillow': 'Pillow'" pTooltip="Подшипник № 4">
+        </td>
+        <td style="width:3%"></td>
+        <td style="width:3%; cursor: pointer;" (click)="panelChange(5)"
+            [routerLink]="['/Томск', {outlets: {'route1': ['panel5'] }}]"
+            [ngClass]="active == 5 ? 'activePillow': 'Pillow'"  pTooltip="Подшипник № 5">
+        </td>
+        <td style="width:23%"></td>
+        <td style="width:6%; cursor: pointer;" (click)="panelChange(6)" 
+            [routerLink]="['/Томск', {outlets: {'route1': ['panel6'] }}]"
+            [ngClass]="active == 6 ? 'activePillow': 'Pillow'"  pTooltip="Подшипник № 6">
+        </td>
+    </tr>
+</table>
+<a>{{lastTime}}</a>
+<router-outlet></router-outlet>
+    <div class="tabsContent">
+        <router-outlet name="route1"></router-outlet>
+    </div>    

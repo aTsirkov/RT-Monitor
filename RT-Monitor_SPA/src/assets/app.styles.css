@@ -1,0 +1,7 @@
+.app-loading {
+    text-align: center;
+    top: 200px;
+    position: absolute;
+    display: block;
+    left: 40%
+}
